@@ -34,7 +34,6 @@ h1 {
   font-size: 72px;
   line-height: 84px;
   letter-spacing: 0.1cm;
-
   margin: auto;
 }
 p {
@@ -80,6 +79,14 @@ p {
   width: 2600px;
   height: 280px;
   margin: auto;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.navbar-dark {
+  background: var(--primary-color) !important;
 }
 
 @media (max-width: 900px) {
